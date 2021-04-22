@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>onload/setTimeout</title>
+        <script>
+            function waitForASecond()
+            {
+               setTimeout(redirect,5000);
+            }
+            function redirect()
+            {
+               window.location="http://www.redbus.com";
+            }
+        </script>
+    </head>
+    <body onload="waitForASecond()">
+        <b>setting time to load a page</b>
+
+    </body>
+</html>

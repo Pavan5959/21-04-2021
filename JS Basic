@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>variables</title>
+</head>
+<body>
+    <script>
+        //variables
+        console.log("variable");
+       var a=1;
+        var s='string';
+        console.log(a);
+        console.log(s);
+
+        //Data type
+        console.log("Data types");
+        var a=1;
+        var b='string';
+        var c='a';
+        var t=true;  //false
+        var f=1.5;
+        console.log(typeof(a));
+        console.log(typeof(b));
+        console.log(typeof(c));
+        console.log(typeof(t));
+        console.log(typeof(f));
+
+        //Operators (+, -, *, /, %)
+        console.log("Operators");
+        var num=0;
+        num++; //num--
+        ++num;  //--num
+        console.log(num);
+        var num=21;
+        num=25;
+        console.log(num);
+        var a=10;
+        var b=5;
+        console.log(a+b);     //addition
+        console.log(a-b);     //sunbtraction
+        console.log(a*b);     //multiplication
+        console.log(a/b);    //quotient
+        console.log(a%b);   //remaindeer
+        console.log(a**2);   //power
+        console.log(a<=b);   // greater than equal
+        console.log(a>=b);   //less that equal
+        console.log(a==b);   //equal to
+        console.log(a===b);  //thrible equalto
+        console.log(a!=b);   //not equal
+        
+        //conditional 
+        //(&&==> both conditions must be true)
+        //(||==> atleast one condition be true )
+        console.log("conditional")
+        var age=21;
+        age==21 && age==20;
+        console.log(age==21 && age==20); //false
+        console.log(age!==21 || age==21);  //true
+       
+        //loops
+        console.log("loops")
+        //for
+      /*  var num= parseInt(prompt('enter a number'));
+        console.log(num +"x"+"1="+(num*1));
+        console.log(num  +"x"+"2="+(num*2));
+        console.log(num  +"x"+"3="+ (num*3));
+        console.log(num  +"x"+"4="+(num*4));
+        console.log(num  +"x"+"5="+(num*5));*/
+        var num= parseInt(prompt('enter a number'));
+        for(var i=1; i<10; i++)
+        console.log(num +"x"+i+"="+(num*i));
+    </script>
+</body>
+</html>
